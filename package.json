@@ -1,0 +1,29 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Ives van Hoorne <Ives.v.h@gmail.com>",
+  "private": true,
+  "main": "pages/index.vue",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "jest": "latest"
+  }
+}
